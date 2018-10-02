@@ -275,11 +275,10 @@ button:focus {
 .home_banner_area {
   z-index: 1;
   background: url(../img/tele.png);
-  background-position: center center;
+  background-position: center;
 	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size:  cover;
-  height: 100%;
+	background-size:  contain;
+  
 }
   .home_banner_area .banner_inner {
     overflow: hidden;
@@ -2778,7 +2777,7 @@ h6 {
     }
     .post_s_item .post_img:before {
       content: "";
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, 0.1);
       position: absolute;
       left: 0px;
       top: 0px;
